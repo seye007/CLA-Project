@@ -1,4 +1,14 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿var selectContainer = document.querySelector(".custom-select-container");
+var selectElement = selectContainer.querySelector("select");
 
-// Write your JavaScript code.
+selectContainer.addEventListener("click", function () {
+  selectElement.focus();
+});
+
+selectElement.addEventListener("focus", function () {
+  selectContainer.classList.add("show-dropdown");
+});
+
+selectElement.addEventListener("blur", function () {
+  selectContainer.classList.remove("show-dropdown");
+});
