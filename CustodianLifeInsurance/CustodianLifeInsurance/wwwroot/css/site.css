@@ -300,6 +300,12 @@ label {
   }
 }
 
+@media (max-width: 7700px) {
+  .footer-item{
+    padding-top: 20px;
+  }
+}
+
 .nav {
   height: 50px;
 }
