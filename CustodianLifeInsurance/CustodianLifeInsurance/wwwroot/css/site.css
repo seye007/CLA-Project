@@ -12,6 +12,15 @@
 body {
   font-family: 'futura-bk-bt', sans-serif;
 }
+
+.mini-nav-item:hover {
+  font-family: futura-bold !important;
+}
+
+.logo {
+  width: 100px;
+}
+
 .nav-link,
 .nav-link:visited,
 .nav-link:hover,
@@ -29,6 +38,15 @@ body {
   transition: none !important;
 }
 
+.self-service:hover {
+  background-color: #6b0303 !important;
+}
+
+@media (max-width:630px){
+  .mini-nav{
+    display: none;
+  }
+}
 .products-group-style {
   border-top: 2px solid #A5303C;
   cursor: pointer;
@@ -158,7 +176,6 @@ body {
 }
 
 
-
 .custodian-number::before {
   content: "";
   display: inline-block;
@@ -190,15 +207,15 @@ label {
   display: inline-block;
 }
 
-.custom-select-container select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border: none;
-  border-bottom: 1px solid white;
-  background-color: #900000;
-  width: 100%;
-}
+  .custom-select-container select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: #900000;
+    width: 100%;
+  }
 
 .custom-select {
   appearance: none;
@@ -260,6 +277,84 @@ label {
 }
 
 
+.nav {
+  /*height: 50px;*/
+}
+
+.navbar {
+  /* height: 80px;*/
+}
+
+.hero-section {
+  /*height: calc(100vh - 130px);*/
+  position: relative;
+}
+
+.bg-img-1 {
+  background-image: url('../img/Hero-Image.png');
+}
+
+.bg-img-2 {
+  background-image: url('../img/Hero-Image_2.jpg');
+}
+
+.carousel-item {
+  background-size: cover;
+  background-position: center;
+  /* height: calc(100vh - 130px);*/
+  /*position: relative*/
+}
+
+/*.hero-content {
+  top: 30%;
+  position: absolute;
+}*/
+/*.hero-content h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}*/
+.hero-content h1 {
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+
+@media(min-width:770px) {
+  .help {
+    position: absolute !important;
+    bottom: 0px !important;
+  }
+}
+
+.product {
+  border-top: 2px solid #e6e6e6;
+  color: #7D8685 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category {
+  color: #7D8685;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*home*/
+.bg-fonts {
+  color: #900000;
+  font-size: 12px;
+}
+
+.custodin-bg-color {
+  background-color: #900000
+}
+
+.futura-bold {
+  font-family: futura-bold;
+}
+
 @media (max-width: 970px) {
   .col-md-6-about {
     width: 100%;
@@ -292,6 +387,14 @@ label {
       margin: 0px;
       padding: 10px;
     }
+
+  .logo {
+    width: 70px !important;
+  }
+
+  .carousel-item {
+    height: 100vh;
+  }
 }
 
 @media (max-width: 660px) {
@@ -300,79 +403,41 @@ label {
   }
 }
 
-@media (max-width: 7700px) {
-  .footer-item{
+@media (max-width: 770px) {
+  .footer-item {
     padding-top: 20px;
   }
 }
 
-.nav {
-  height: 50px;
-}
-
-.navbar {
-  height: 80px;
-}
-
-.hero-section {
-  height: calc(100vh - 130px);
-  position: relative;
-}
-
-.bg-img-1 {
-  background-image: url('../img/Hero-Image.png');
-}
-
-.bg-img-2 {
-  background-image: url('../img/Hero-Image_2.jpg');
-}
-
-.carousel-item {
-  background-size: cover;
-  background-position:center;
-  height: 100vh;
-  position: relative
-}
-
 .hero-content {
-  top: 30%;
   position: absolute;
-}
-/*.hero-content h1 {
-  font-size: 50px;
-  font-weight: bolder;
-}*/
-  .hero-content h1 {
-    font-size: 2.5em;
-    font-weight: bolder;
-  }
-
-    .help {
-      position: absolute;
-      bottom: 0px;
-    }
-
-.product {
-  border-top: 2px solid #e6e6e6;
-  color: #7D8685 !important;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+  z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 0;
+  text-align: center;
+  background: 0 0;
+  border: 0;
 }
 
-.category {
-  color: #7D8685;
-  font-weight: bolder;
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-/*home*/
-.bg-fonts {
-  color: #900000; 
-  font-size: 12px;
-}
-
-.futura-bold{
-  font-family: futura-bold;
+  justify-content: center;
+  width: 5%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
 }

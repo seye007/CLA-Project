@@ -1,210 +1,213 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿
+<div>
+	<div class="hero-section">
+		<div id="carouselExample" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="8000">
+			<div class="carousel-inner  h-100">
+				<div class="carousel-item bg-img-1 active">
+					<div class="hero-content">
+						<div class="text-start">
+							<h1>
+								Life can be fun and exciting! <br /> let's show you how
+							</h1>
+							<div class="p-2 text-white custodin-bg-color  text-center w-25">
+								Learn More
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item bg-img-2">
+					<div class="hero-content">
+						<div class="text-start">
+							<h1 class="text-dark">
+								Retirement can be fun and exciting!
+							</h1>
+							<div>
+								<div class="p-2 text-white custodin-bg-color text-center w-25">
+									Learn More
+								</div>
+							</div>
+						</div>
 
-<div class="hero-section">
-  <div id="carouselExample" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="8000">
-    <div class="carousel-inner  h-100">
-      <div class="carousel-item bg-img-1 active">
-        <div class="row hero-content container-fluid m-3">
-          <div class="col-md-6 col-sm-6 p-1">
-            <h1>
-              Life can be fun and exciting! let's show you how
-            </h1>
-          </div>
-          <div class="col-md-6 col-sm-6">
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item bg-img-2">
-        <div class="row hero-content container-fluid m-3">
-          <div class="col-md-6 col-sm-6 p-1">
-            <h1 class="text-dark">
-              Retirement can be fun and exciting!
-            </h1>
-          </div>
-          <div class="col-md-6 col-sm-6">
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<div class="help container-fluid text-white p-3 d-flex align-items-center justify-content-center" style="background-color: #900000;">
+			<div class="container row px-5">
+				<div class="col-md-4 text-white">
+					<h6 class="p-1">How can we serve you today?</h6>
+				</div>
+				<div class="col-md-8 text-white">
+					<form action="">
+						<label class="d-flex">
+							<h6 class="p-1">I would like to</h6>
+							<div class="p-1 custom-select-container" style="width: 70%;">
+								<select class="text-white text-center">
+									<option value=""></option>
+									<option value="Option A">Option A</option>
+									<option value="Option B">Option B</option>
+								</select>
+							</div>
+							<i class="fa-solid fa-chevron-down bg-white h-50 m-2 dropdown-iconn bg-fonts"></i>
+						</label>
+					</form>
+				</div>
+			</div>
+		</div>
 
-  <div class="help container-fluid text-white p-3 d-flex align-items-center justify-content-center" style="background-color: #900000;">
-    <div class="container row px-5">
-      <div class="col-md-4 text-white">
-        <h6 class="p-1">How can we serve you today?</h6>
-      </div>
-      <div class="col-md-8 text-white">
-        <form action="">
-          <label class="d-flex">
-            <h6 class="p-1">I would like to</h6>
-            <div class="p-1 custom-select-container" style="width: 70%;">
-              <select>
-                <option value=""></option>
-                <option value="Option A">Option A</option>
-                <option value="Option B">Option B</option>
-              </select>
-            </div>
-            <i class="fa-solid fa-chevron-down bg-white h-50 m-2 dropdown-iconn bg-fonts"></i>
-          </label>
-        </form>
-      </div>
-    </div>
-  </div>
+	</div>
+	<div class="container bg-white pb-5" style="min-height:425px">
+		<div class="d-flex justify-content-center align-item-center pt-4 px-4" style="color: #607683; font-weight: bold; font-size: 1rem;">
+			<h4>Whatever your insurance needs are, we are here for you!</h4>
+		</div>
 
+		<div class="d-flex justify-content-center align-item-center py-3 about-us-header">EXPLORE OUR PRODUCTS</div>
+		<div class="row">
+			<div class="container col-md-3 col-sm-12 pt-2">
+				<div class=" products-group-style py-2">
+
+					<div class="pb-2 category">
+						<h5 class="px-2 d-inline-flex">Endowment <br> Policies</h5>
+						<img src="~/img/Endowment icon (1).png" width="30">
+					</div>
+					<div>
+						<div class="p-2 product">Education Endowment <i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product">Life Time Harvest <i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product product-bottom-border">Ordinary Endowment <i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12 pt-2">
+				<div class="container products-group-style py-2">
+					<div class="pb-2 category">
+						<h5 class="px-2 d-inline-flex ">Annuity <br> Plan</h5>
+						<img src="~/img/Annuity Icon.png" width="30">
+					</div>
+					<div>
+						<div class="p-2 product">Retiree Life Annuity<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product">Immediate Annuity<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product product-bottom-border">Deferred Annuity<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12 pt-2">
+				<div class="container products-group-style py-2">
+					<div class="pb-2 category">
+						<h5 class="px-2 d-inline-flex ">Protection <br> Policies</h5>
+						<img src="~/img/protection.png" width="30">
+					</div>
+					<div>
+						<div class="p-2 product">Term Assurance<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product">Whole Life Assurance<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product">Dignity Plan<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product product-bottom-border">Tuition Protection<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12 pt-2">
+				<div class="container products-group-style py-2">
+					<div class="pb-2 category">
+						<h5 class="px-2 d-inline-flex ">Savings <br> Investments</h5>
+						<img src="~/img/savings icon.png" width="30">
+					</div>
+					<div>
+						<div class="p-2 product">Capital Builder<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product">Esusu Shield<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product">Personal Provident Plan<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+						<div class="p-2 product product-bottom-border">Investment Plus Plan<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid p-5 about-us">
+		<div class="row">
+			<div class="col-md-6 col-md-6-about col-sm-12 pt-5">
+				<div class="overlay"></div>
+				<div class="w-100">
+					<img src="~/img/About us image.png" class="img-fluid img-fluida-about w-100">
+				</div>
+
+			</div>
+			<div class="col-md-6 col-md-6-about col-sm-12 pt-5">
+				<h5 class="about-us-header">About Us</h5>
+				<div class="about-us-content py-3">
+					<p>
+						Custodian Life Assurance Limited is a specialist life
+						insurance company incoporated in Nigeria and licensed
+						by the National Insurance Commision to transact all
+						classes of life insurance business.
+					</p>
+					<p>
+						Custodian Life Assurance Limited (CLA) is the subsidiary of
+						Custodian Investment Plc, the holding company which is
+						wholly owned by nigerians.
+					</p>
+				</div>
+				<button class="about-us-button px-3 py-1">
+					Read More
+					<i class="fa-solid fa-chevron-right ml-3 text-white" style="font-size: 12px;"></i>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="container p-3">
+		<h5 class="text-center common-questions-header pt-5 pb-3">Common Questions</h5>
+		<div class="row">
+			<div class="col-md-6 col-sm-12 px-5">
+				<div class="common-question-items py-2 d-flex">
+					<p>What is a policy rider and how do I go about it?</p>
+					<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i>
+				</div>
+				<div class="common-question-items py-2 d-flex">
+					<p>What is a policy rider and how do I go about it?</p>
+					<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i>
+				</div>
+				<div class="common-question-items py-2 d-flex">
+					<p>What is a policy rider and how do I go about it?</p>
+					<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 px-5">
+				<div class="common-question-items py-2 d-flex">
+					<p>What is a policy rider and how do I go about it?</p>
+					<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i>
+				</div>
+				<div class="common-question-items py-2 d-flex">
+					<p>What is a policy rider and how do I go about it?</p>
+					<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i>
+				</div>
+				<div class="common-question-items py-2 d-flex">
+					<p>What is a policy rider and how do I go about it?</p>
+					<i class="fa-solid fa-chevron-down h-50 m-2 bg-fonts"></i>
+				</div>
+			</div>
+		</div>
+		<div class="d-flex justify-content-center m-5">
+			<button class="common-question-button py-2 px-3">
+				See More
+				<i class="fa-solid fa-chevron-right ml-3 text-white" style="font-size: 12px;"></i>
+			</button>
+		</div>
+	</div>
+	<div class="container-fluid about-us p-5 d-flex justify-content-center align-item-center">
+		<div>
+			<span class="text-center sign-up-section pb-3 d-block">Sign up for free!</span>
+			<span style="font-size: 24px; color: #607683; font-weight: bold;">Download the Adapt App by Custodian</span>
+			<img class="px-3" height="51" src="~/img/adapt-logo.webp" />
+			<a><img class="px-3 img-fluid" src="~/img/App Store.png" width="200px" /></a>
+			<a><img class="px-3 img-fluid" src="~/img/Google Play.png" width="200px" /></a>
+		</div>
+	</div>
 </div>
-<div class="container bg-white pb-5" style="min-height:425px">
-  <div class="d-flex justify-content-center align-item-center pt-4 px-4" style="color: #607683; font-weight: bold; font-size: 26px;">
-    <h4>Whatever your insurance needs are, we are here for you!</h4>
-  </div>
-
-  <div class="d-flex justify-content-center align-item-center py-3 about-us-header">EXPLORE OUR PRODUCTS</div>
-  <div class="row">
-    <div class="container col-md-3 col-sm-12 pt-2">
-      <div class=" products-group-style py-2">
-
-        <div class="pb-2 category">
-          <h5 class="px-2 d-inline-flex">Endowment <br> Policies</h5>
-          <img src="~/img/Endowment icon (1).png" width="30">
-        </div>
-        <div>
-          <div class="p-2 product">Education Endowment <i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product">Life Time Harvest <i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product product-bottom-border">Ordinary Endowment <i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3 col-sm-12 pt-2">
-      <div class="container products-group-style py-2">
-        <div class="pb-2 category">
-          <h5 class="px-2 d-inline-flex ">Annuity <br> Plan</h5>
-          <img src="~/img/\Annuity Icon.png" width="30">
-        </div>
-        <div>
-          <div class="p-2 product">Retiree Life Annuity<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product">Immediate Annuity<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product product-bottom-border">Deferred Annuity<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3 col-sm-12 pt-2">
-      <div class="container products-group-style py-2">
-        <div class="pb-2 category">
-          <h5 class="px-2 d-inline-flex ">Protection <br> Policies</h5>
-          <img src="~/img/protection.png" width="30">
-        </div>
-        <div>
-          <div class="p-2 product">Term Assurance<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product">Whole Life Assurance<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product">Dignity Plan<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product product-bottom-border">Tuition Protection<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3 col-sm-12 pt-2">
-      <div class="container products-group-style py-2">
-        <div class="pb-2 category">
-          <h5 class="px-2 d-inline-flex ">Savings <br> Investments</h5>
-          <img src="~/img/savings icon.png" width="30">
-        </div>
-        <div>
-          <div class="p-2 product">Capital Builder<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product">Esusu Shield<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product">Personal Provident Plan<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-          <div class="p-2 product product-bottom-border">Investment Plus Plan<i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container-fluid p-5 about-us">
-  <div class="row">
-    <div class="col-md-6 col-md-6-about col-sm-12 pt-5">
-      <div class="overlay"></div>
-      <div class="w-100">
-        <img src="~/img/About us image.png" class="img-fluid img-fluida-about w-100">
-      </div>
-
-    </div>
-    <div class="col-md-6 col-md-6-about col-sm-12 pt-5">
-      <h5 class="about-us-header">About Us</h5>
-      <div class="about-us-content py-3">
-        <p>
-          Custodian Life Assurance Limited is a specialist life
-          insurance company incoporated in Nigeria and licensed
-          by the National Insurance Commision to transact all
-          classes of life insurance business.
-        </p>
-        <p>
-          Custodian Life Assurance Limited (CLA) is the subsidiary of
-          Custodian Investment Plc, the holding company which is
-          wholly owned by nigerians.
-        </p>
-      </div>
-      <button class="about-us-button px-3 py-1">
-        Read More
-        <i class="fa-solid fa-chevron-right ml-3 text-white" style="font-size: 12px;"></i>
-      </button>
-    </div>
-  </div>
-</div>
-<div class="container p-3">
-  <h5 class="text-center common-questions-header pt-5 pb-3">Common Questions</h5>
-  <div class="row">
-    <div class="col-md-6 col-sm-12 px-5">
-      <div class="common-question-items py-2 d-flex">
-        <p>What is a policy rider and how do I go about it?</p>
-        <i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i>
-      </div>
-      <div class="common-question-items py-2 d-flex">
-        <p>What is a policy rider and how do I go about it?</p>
-        <i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i>
-      </div>
-      <div class="common-question-items py-2 d-flex">
-        <p>What is a policy rider and how do I go about it?</p>
-        <i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i>
-      </div>
-    </div>
-    <div class="col-md-6 col-sm-12 px-5">
-      <div class="common-question-items py-2 d-flex">
-        <p>What is a policy rider and how do I go about it?</p>
-        <i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i>
-      </div>
-      <div class="common-question-items py-2 d-flex">
-        <p>What is a policy rider and how do I go about it?</p>
-        <i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i>
-      </div>
-      <div class="common-question-items py-2 d-flex">
-        <p>What is a policy rider and how do I go about it?</p>
-        <i class="fa-solid fa-chevron-down bg-white h-50 m-2 bg-fonts"></i>
-      </div>
-    </div>
-  </div>
-  <div class="d-flex justify-content-center m-5">
-    <button class="common-question-button py-2 px-3">
-      See More
-      <i class="fa-solid fa-chevron-right ml-3 text-white" style="font-size: 12px;"></i>
-    </button>
-  </div>
-</div>
-<div class="container-fluid about-us p-5 d-flex justify-content-center align-item-center">
-  <div>
-    <span class="text-center sign-up-section pb-3 d-block">Sign up for free!</span>
-    <span style="font-size: 24px; color: #607683; font-weight: bold;">Download the Adapt App by Custodian</span>
-    <img class="px-3" height="51" src="~/img/adapt-logo.webp" />
-    <a><img class="px-3 img-fluid" src="~/img/App Store.png" width="200px" /></a>
-    <a><img class="px-3 img-fluid" src="~/img/Google Play.png" width="200px" /></a>
-  </div>
-</div>
-@section scripts{
-  <script src="~/js/site.js"></script>
-}
+@section Scripts{
+	<script src="js/site.js"></script>
+ }
